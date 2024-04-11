@@ -65,10 +65,13 @@ if __name__ == "__main__":
     # download every model
     for filename, specs in models.items():
         print(f". downloading {filename}")
-        wrappers.get(specs.get("api")).download(
-            model_id=specs.get("id"),
-            folder=os.path.join(output_folder, specs.get("type").lower()),
-            filename=filename
-        )
+        try:
+            wrappers.get(specs.get("api")).download(
+                model_id=specs.get("id"),
+                folder=os.path.join(output_folder, specs.get("type").lower()),
+                filename=filename
+            )
+        except Exception as e:
+            print(f"### ERROR: {e}\n -> skipping {filename}")
 
     print("done")
