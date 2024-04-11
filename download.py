@@ -1,29 +1,39 @@
-import json
 import os
 from argparse import ArgumentParser, Namespace
 
-from api.wrappers import CivitaiWrapper, HFHubWrapper
+from diffusiondb.utils import get_model_db, get_supported_types, get_supported_models
+from diffusiondb.wrappers import CivitaiWrapper, HFHubWrapper
 
 
 def load_parameters() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument(
-        "--config",
-        required=True,
-        type=str,
-        help="Path to the config file"
-    )
-    parser.add_argument(
-        "--database",
+        "--folder",
         required=False,
         type=str,
         help="folder where the downloaded models will be written (set to current folder if not provided)"
     )
     parser.add_argument(
+        "--models",
+        required=False,
+        type=str,
+        nargs="+",
+        choices=get_supported_models(),
+        help="if provided, only models whose label is provided will be downloaded"
+    )
+    parser.add_argument(
+        "--types",
+        required=False,
+        type=str,
+        nargs="+",
+        choices=get_supported_types(),
+        help="if set, only models whose type is provided will be downloaded"
+    )
+    parser.add_argument(
         "--civitai-key",
         required=False,
         type=str,
-        help="Civitai API key"
+        help="Civitai API key (allows to download models whose author required identification)"
     )
     parser.add_argument(
         "--hfhub-key",
@@ -42,15 +52,18 @@ if __name__ == "__main__":
     )
 
     # configure output
-    output_folder = params.database if params.database else os.path.join(os.getcwd(), "database")
+    output_folder = params.folder if params.folder else os.path.join(os.getcwd(), "database")
     os.makedirs(output_folder, exist_ok=True)
 
-    # get db config
-    with open(params.config, "r") as fh:
-        config = json.load(fh)
+    # configure model list
+    models = get_model_db()
+    if params.models:
+        models = {k: v for k, v in models.items() if k in params.models}
+    if params.types:
+        models = {k: v for k, v in models.items() if v.get("type") in params.types}
 
     # download every model
-    for filename, specs in config.items():
+    for filename, specs in models.items():
         print(f". downloading {filename}")
         wrappers.get(specs.get("api")).download(
             model_id=specs.get("id"),

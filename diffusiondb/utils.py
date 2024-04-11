@@ -1,5 +1,26 @@
-import requests
+import json
 import os
+
+import requests
+
+
+def get_model_db() -> dict:
+    """Returns the model database as a dictionary."""
+    with open(os.path.join(os.path.dirname(__file__), "data", "models.json"), 'r') as fh:
+        database = json.load(fh)
+    return database
+
+
+def get_supported_types() -> list:
+    """Returns the model types supported by the database"""
+    db = get_model_db()
+    return list(set([m.get("type") for m in db.values()]))
+
+
+def get_supported_models() -> list:
+    """Returns the model types supported by the database"""
+    db = get_model_db()
+    return list(db.keys())
 
 
 def urlget(**kwargs):
@@ -24,17 +45,3 @@ def urldownload(url: str, filepath: str, headers) -> None:
         except Exception as error:
             raise Exception(f"### ERROR ### : {error}")
     return
-
-
-WRITE_PARAMS = {
-    "json": dict(orient="records"),
-    "csv": dict(sep=";", header=True, index=True, decimal=".", encoding="utf8"),
-    "xlsx": dict(header=True, index=True),
-    "sql": dict(index=True, if_exists="replace")
-}
-READ_PARAMS = {
-    "json": dict(orient="records"),
-    "csv": dict(sep=";", header=0, index_col=0, decimal=".", encoding="utf8"),
-    "xlsx": dict(header=0, index_col=0),
-    "sql": dict(index_col=0)
-}

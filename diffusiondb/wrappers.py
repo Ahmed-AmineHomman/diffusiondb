@@ -11,7 +11,7 @@ class BaseModelWrapper:
     _env_key: str
 
     def __init__(self, api_key: Optional[str] = None):
-        # get api key
+        # get diffusiondb key
         self.api_token = api_key if api_key else os.environ.get("API_TOKEN")
 
     def download(
