@@ -1,0 +1,602 @@
+{
+    "add_more_details": {
+        "api": "civitai",
+        "id": "87153",
+        "type": "loras"
+    },
+    "adventurediffusion": {
+        "api": "civitai",
+        "id": "8042",
+        "type": "embeddings"
+    },
+    "anton_pieck_style": {
+        "api": "civitai",
+        "id": "275422",
+        "type": "loras"
+    },
+    "anythingvae_fp16": {
+        "api": "hfhub",
+        "id": "fp16-guy/anything_kl-f8-anime2_vae-ft-mse-840000-ema-pruned_blessed_clearvae_fp16_cleaned/anything_fp16.safetensors",
+        "type": "vae"
+    },
+    "arcane_style": {
+        "api": "civitai",
+        "id": "121933",
+        "type": "loras"
+    },
+    "badartist": {
+        "api": "civitai",
+        "id": "6056",
+        "type": "embeddings"
+    },
+    "badartist_anime": {
+        "api": "civitai",
+        "id": "6057",
+        "type": "embeddings"
+    },
+    "baddream": {
+        "api": "civitai",
+        "id": "77169",
+        "type": "embeddings"
+    },
+    "badhand": {
+        "api": "civitai",
+        "id": "20068",
+        "type": "embeddings"
+    },
+    "blessed2_fp16": {
+        "api": "hfhub",
+        "id": "fp16-guy/anything_kl-f8-anime2_vae-ft-mse-840000-ema-pruned_blessed_clearvae_fp16_cleaned/blessed2_fp16.safetensors",
+        "type": "vae"
+    },
+    "cleanvae": {
+        "api": "civitai",
+        "id": "125553",
+        "type": "vae"
+    },
+    "clearvae": {
+        "api": "civitai",
+        "id": "88156",
+        "type": "vae"
+    },
+    "cyberrealistic": {
+        "api": "civitai",
+        "id": "372799",
+        "type": "checkpoints"
+    },
+    "cyberrealistic_25d": {
+        "api": "civitai",
+        "id": "243482",
+        "type": "checkpoints"
+    },
+    "cyberrealistic_neg": {
+        "api": "civitai",
+        "id": "82745",
+        "type": "embeddings"
+    },
+    "cyberrealisticXL": {
+        "api": "civitai",
+        "id": "395041",
+        "type": "checkpoints"
+    },
+    "deepnegative": {
+        "api": "civitai",
+        "id": "5637",
+        "type": "embeddings"
+    },
+    "detailtweaker": {
+        "api": "civitai",
+        "id": "62833",
+        "type": "loras"
+    },
+    "dreamshaper": {
+        "api": "civitai",
+        "id": "128713",
+        "type": "checkpoints"
+    },
+    "dreamshaperXL": {
+        "api": "civitai",
+        "id": "351306",
+        "type": "checkpoints"
+    },
+    "druuna_style": {
+        "api": "civitai",
+        "id": "279032",
+        "type": "loras"
+    },
+    "easynegative": {
+        "api": "civitai",
+        "id": "9208",
+        "type": "embeddings"
+    },
+    "epic_25d": {
+        "api": "civitai",
+        "id": "51342",
+        "type": "checkpoints"
+    },
+    "epic_cartoon": {
+        "api": "civitai",
+        "id": "260169",
+        "type": "checkpoints"
+    },
+    "epic_dream": {
+        "api": "civitai",
+        "id": "136739",
+        "type": "checkpoints"
+    },
+    "epic_mystery": {
+        "api": "civitai",
+        "id": "121129",
+        "type": "checkpoints"
+    },
+    "epic_photo": {
+        "api": "civitai",
+        "id": "220262",
+        "type": "embeddings"
+    },
+    "epic_photogasm": {
+        "api": "civitai",
+        "id": "429454",
+        "type": "checkpoints"
+    },
+    "epic_photogasm_colorful": {
+        "api": "civitai",
+        "id": "145996",
+        "type": "embeddings"
+    },
+    "epic_photogasm_soft": {
+        "api": "civitai",
+        "id": "145994",
+        "type": "embeddings"
+    },
+    "epic_realism": {
+        "api": "civitai",
+        "id": "143906",
+        "type": "checkpoints"
+    },
+    "epic_realism_neg": {
+        "api": "civitai",
+        "id": "95263",
+        "type": "embeddings"
+    },
+    "epic_realism_pos": {
+        "api": "civitai",
+        "id": "95256",
+        "type": "embeddings"
+    },
+    "epic_realismXL": {
+        "api": "civitai",
+        "id": "373969",
+        "type": "checkpoints"
+    },
+    "epic_sepia_lora": {
+        "api": "civitai",
+        "id": "206574",
+        "type": "loras"
+    },
+    "fastnegative": {
+        "api": "civitai",
+        "id": "94057",
+        "type": "embeddings"
+    },
+    "ghibli_style": {
+        "api": "civitai",
+        "id": "7657",
+        "type": "loras"
+    },
+    "greg_rutkowski_styleXL": {
+        "api": "civitai",
+        "id": "127510",
+        "type": "loras"
+    },
+    "ipadapter_faceid_lora_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid_sd15_lora.safetensors",
+        "type": "loras"
+    },
+    "ipadapter_faceid_lora_sdxl": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid_sdxl_lora.safetensors",
+        "type": "loras"
+    },
+    "ipadapter_faceid_plus_lora_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid_plus_sd15_lora.safetensors",
+        "type": "loras"
+    },
+    "ipadapter_faceid_plus_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid-plus_sd15.bin",
+        "type": "ipadapter"
+    },
+    "ipadapter_faceid_plusv2_lora_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid_plusv2_sd15_lora.safetensors",
+        "type": "loras"
+    },
+    "ipadapter_faceid_plusv2_lora_sdxl": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid_plusv2_sdxl_lora.safetensors",
+        "type": "loras"
+    },
+    "ipadapter_faceid_plusv2_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid-plusv2_sd15.bin",
+        "type": "ipadapter"
+    },
+    "ipadapter_faceid_plusv2_sdxl": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid-plusv2_sdxl.bin",
+        "type": "ipadapter"
+    },
+    "ipadapter_faceid_portrait_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid-portrait_sd15.bin",
+        "type": "ipadapter"
+    },
+    "ipadapter_faceid_portrait_sdxl": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid-portrait_sdxl.bin",
+        "type": "ipadapter"
+    },
+    "ipadapter_faceid_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid_sd15.bin",
+        "type": "ipadapter"
+    },
+    "ipadapter_faceid_sdxl": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter-FaceID/ip-adapter-faceid_sdxl.bin",
+        "type": "ipadapter"
+    },
+    "ipadapter_fullface_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter/models/ip-adapter-full-face_sd15.safetensors",
+        "type": "ipadapter"
+    },
+    "ipadapter_light_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter/models/ip-adapter-light_sd15.safetensors",
+        "type": "ipadapter"
+    },
+    "ipadapter_plus_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter/models/ip-adapter-plus_sd15.safetensors",
+        "type": "ipadapter"
+    },
+    "ipadapter_plus_sdxl": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors",
+        "type": "ipadapter"
+    },
+    "ipadapter_plusface_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter/models/ip-adapter-plus-face_sd15.safetensors",
+        "type": "ipadapter"
+    },
+    "ipadapter_plusface_sdxl": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors",
+        "type": "ipadapter"
+    },
+    "ipadapter_sd1": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter/models/ip-adapter_sd15.safetensors",
+        "type": "ipadapter"
+    },
+    "ipadapter_sdxl": {
+        "api": "hfhub",
+        "id": "h94/IP-Adapter/sdxl_models/ip-adapter_sdxl_vit-h.safetensors",
+        "type": "ipadapter"
+    },
+    "jim_lee_style": {
+        "api": "civitai",
+        "id": "10580",
+        "type": "loras"
+    },
+    "juggernaut": {
+        "api": "civitai",
+        "id": "274039",
+        "type": "checkpoints"
+    },
+    "juggernaut_cinematicXL": {
+        "api": "civitai",
+        "id": "131991",
+        "type": "loras"
+    },
+    "juggernaut_neg": {
+        "api": "civitai",
+        "id": "86553",
+        "type": "embeddings"
+    },
+    "juggernautXL": {
+        "api": "civitai",
+        "id": "357609",
+        "type": "checkpoints"
+    },
+    "kl-f8-anime2_fp16": {
+        "api": "hfhub",
+        "id": "fp16-guy/anything_kl-f8-anime2_vae-ft-mse-840000-ema-pruned_blessed_clearvae_fp16_cleaned/kl-f8-anime2_fp16.safetensors",
+        "type": "vae"
+    },
+    "lykon_anylora": {
+        "api": "civitai",
+        "id": "95489",
+        "type": "checkpoints"
+    },
+    "lykon_ned": {
+        "api": "civitai",
+        "id": "64094",
+        "type": "checkpoints"
+    },
+    "majicmix_alpha": {
+        "api": "civitai",
+        "id": "222240",
+        "type": "checkpoints"
+    },
+    "majicmix_fantasy": {
+        "api": "civitai",
+        "id": "256869",
+        "type": "checkpoints"
+    },
+    "majicmix_lux": {
+        "api": "civitai",
+        "id": "286238",
+        "type": "checkpoints"
+    },
+    "majicmix_realistic": {
+        "api": "civitai",
+        "id": "176425",
+        "type": "checkpoints"
+    },
+    "majicmix_reverie": {
+        "api": "civitai",
+        "id": "69687",
+        "type": "checkpoints"
+    },
+    "majicmix_sombre": {
+        "api": "civitai",
+        "id": "75209",
+        "type": "checkpoints"
+    },
+    "meina_alter": {
+        "api": "civitai",
+        "id": "112825",
+        "type": "checkpoints"
+    },
+    "meina_mix": {
+        "api": "civitai",
+        "id": "119057",
+        "type": "checkpoints"
+    },
+    "meina_pastel": {
+        "api": "civitai",
+        "id": "108289",
+        "type": "checkpoints"
+    },
+    "meina_unreal": {
+        "api": "civitai",
+        "id": "112809",
+        "type": "checkpoints"
+    },
+    "negativeXL": {
+        "api": "civitai",
+        "id": "134583",
+        "type": "embeddings"
+    },
+    "openjourney": {
+        "api": "civitai",
+        "id": "27392",
+        "type": "checkpoints"
+    },
+    "orangemix_aom3": {
+        "api": "hfhub",
+        "id": "WarriorMama777/OrangeMixs/Models/AbyssOrangeMix3/AOM3_orangemixs.safetensors",
+        "type": "checkpoints"
+    },
+    "orangemix_vae": {
+        "api": "hfhub",
+        "id": "WarriorMama777/OrangeMixs/VAEs/orangemix.vae.pt",
+        "type": "vae"
+    },
+    "papercutXL": {
+        "api": "civitai",
+        "id": "133503",
+        "type": "loras"
+    },
+    "pixelartXL": {
+        "api": "civitai",
+        "id": "135931",
+        "type": "loras"
+    },
+    "ponydiffusion": {
+        "api": "civitai",
+        "id": "23834",
+        "type": "checkpoints"
+    },
+    "ponydiffusionXL": {
+        "api": "civitai",
+        "id": "290640",
+        "type": "checkpoints"
+    },
+    "realcartoon_25d": {
+        "api": "civitai",
+        "id": "362377",
+        "type": "checkpoints"
+    },
+    "realcartoon_3d": {
+        "api": "civitai",
+        "id": "393843",
+        "type": "checkpoints"
+    },
+    "realcartoon_anime": {
+        "api": "civitai",
+        "id": "359428",
+        "type": "checkpoints"
+    },
+    "realcartoon_pixar": {
+        "api": "civitai",
+        "id": "438044",
+        "type": "checkpoints"
+    },
+    "realcartoon_realistic": {
+        "api": "civitai",
+        "id": "357360",
+        "type": "checkpoints"
+    },
+    "realcartoon_special": {
+        "api": "civitai",
+        "id": "218329",
+        "type": "checkpoints"
+    },
+    "realcartoonXL": {
+        "api": "civitai",
+        "id": "254091",
+        "type": "checkpoints"
+    },
+    "realisticvision": {
+        "api": "civitai",
+        "id": "130072",
+        "type": "checkpoints"
+    },
+    "realisticvision_neg": {
+        "api": "civitai",
+        "id": "42247",
+        "type": "embeddings"
+    },
+    "realisticvisionXL": {
+        "api": "civitai",
+        "id": "361593",
+        "type": "checkpoints"
+    },
+    "sam_yang_style": {
+        "api": "civitai",
+        "id": "7804",
+        "type": "loras"
+    },
+    "sc_stage_a": {
+        "api": "hfhub",
+        "id": "stabilityai/stable-cascade/stage_a.safetensors",
+        "type": "vae"
+    },
+    "sc_stage_b": {
+        "api": "hfhub",
+        "id": "stabilityai/stable-cascade/stage_b_bf16.safetensors",
+        "type": "checkpoints"
+    },
+    "sc_stage_c": {
+        "api": "hfhub",
+        "id": "stabilityai/stable-cascade/stage_c_bf16.safetensors",
+        "type": "checkpoints"
+    },
+    "sd_vae_ema": {
+        "api": "hfhub",
+        "id": "stabilityai/sd-vae-ft-ema/diffusion_pytorch_model.safetensors",
+        "type": "vae"
+    },
+    "sd_vae_mse": {
+        "api": "hfhub",
+        "id": "stabilityai/sd-vae-ft-mse/diffusion_pytorch_model.safetensors",
+        "type": "vae"
+    },
+    "sd21": {
+        "api": "hfhub",
+        "id": "stabilityai/stable-diffusion-2-1/v2-1_768-ema-pruned.safetensors",
+        "type": "checkpoints"
+    },
+    "sd21_turbo": {
+        "api": "hfhub",
+        "id": "stabilityai/sd-turbo/sd_turbo.safetensors",
+        "type": "checkpoints"
+    },
+    "sdxl_base": {
+        "api": "hfhub",
+        "id": "stabilityai/stable-diffusion-xl-base-1.0/sd_xl_base_1.0.safetensors",
+        "type": "checkpoints"
+    },
+    "sdxl_refiner": {
+        "api": "hfhub",
+        "id": "stabilityai/stable-diffusion-xl-refiner-1.0/sd_xl_refiner_1.0.safetensors",
+        "type": "checkpoints"
+    },
+    "sdxl_turbo": {
+        "api": "hfhub",
+        "id": "stabilityai/sdxl-turbo/sd_xl_turbo_1.0_fp16.safetensors",
+        "type": "checkpoints"
+    },
+    "sdxl_vae": {
+        "api": "hfhub",
+        "id": "stabilityai/sdxl-vae/sdxl_vae.safetensors",
+        "type": "vae"
+    },
+    "shinkawa_youji": {
+        "api": "civitai",
+        "id": "14533",
+        "type": "loras"
+    },
+    "timburton_animation_style": {
+        "api": "civitai",
+        "id": "101057",
+        "type": "loras"
+    },
+    "unrealisticdream": {
+        "api": "civitai",
+        "id": "77173",
+        "type": "embeddings"
+    },
+    "zavy_artifex": {
+        "api": "civitai",
+        "id": "127556",
+        "type": "checkpoints"
+    },
+    "zavy_backlitXL": {
+        "api": "civitai",
+        "id": "423786",
+        "type": "loras"
+    },
+    "zavy_chromaXL": {
+        "api": "civitai",
+        "id": "416867",
+        "type": "checkpoints"
+    },
+    "zavy_comics": {
+        "api": "civitai",
+        "id": "115754",
+        "type": "checkpoints"
+    },
+    "zavy_cuteisometricXL": {
+        "api": "civitai",
+        "id": "381373",
+        "type": "loras"
+    },
+    "zavy_darkXL": {
+        "api": "civitai",
+        "id": "332071",
+        "type": "loras"
+    },
+    "zavy_dutchangleXL": {
+        "api": "civitai",
+        "id": "404014",
+        "type": "loras"
+    },
+    "zavy_fuzzygraffitiXL": {
+        "api": "civitai",
+        "id": "352968",
+        "type": "loras"
+    },
+    "zavy_mix": {
+        "api": "civitai",
+        "id": "126079",
+        "type": "checkpoints"
+    },
+    "zavy_rimlightXL": {
+        "api": "civitai",
+        "id": "424827",
+        "type": "loras"
+    },
+    "zavy_yumeXL": {
+        "api": "civitai",
+        "id": "162366",
+        "type": "checkpoints"
+    }
+}
