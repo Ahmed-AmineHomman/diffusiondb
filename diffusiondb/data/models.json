@@ -9,6 +9,11 @@
         "id": "8042",
         "type": "embeddings"
     },
+    "animagineXL": {
+        "api": "hfhub",
+        "id": "cagliostrolab/animagine-xl-3.1/animagine-xl-3.1.safetensors",
+        "type": "checkpoints"
+    },
     "anton_pieck_style": {
         "api": "civitai",
         "id": "275422",
@@ -188,6 +193,31 @@
         "api": "civitai",
         "id": "127510",
         "type": "loras"
+    },
+    "ikena_hassaku": {
+        "api": "civitai",
+        "id": "106922",
+        "type": "checkpoints"
+    },
+    "ikena_hassakuXL": {
+        "api": "civitai",
+        "id": "114059",
+        "type": "checkpoints"
+    },
+    "ikena_koji": {
+        "api": "civitai",
+        "id": "90674",
+        "type": "checkpoints"
+    },
+    "ikena_sudachi": {
+        "api": "civitai",
+        "id": "91337",
+        "type": "checkpoints"
+    },
+    "ikena_yuzu": {
+        "api": "civitai",
+        "id": "114059",
+        "type": "checkpoints"
     },
     "ipadapter_faceid_lora_sd1": {
         "api": "hfhub",
